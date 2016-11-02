@@ -1,0 +1,13 @@
+MyRecipe enhancements
+
+The first function that will be called when the user clicks either of the h3 elements is the texts is the fadeIn - that will happen at a fast rate.
+The code entered traverses the DOM tree to the element that follows the slected element- ingredients for the first h3 heading, or the instructions for the second h3 heading
+
+The next set of code created animations. My display2() method will toggle in quickly when the user selects the h3 elements (Ingredients and Instructions)
+I also a=wrote code that will trigger the display2() function, which will use the animate() method to fade in the display of instructions and ingredients information when the user clicks on the headers
+
+The next set of code uses the hover() method to specify two functions to run when the mouse pointer hovers over the selcted elements.
+The code will change the background color of the h3 elements to purple and green when the mouse pointer hovers over it.
+
+The next set of code allows the hover() method to trigger the display2() method each time the mouse pointer hovers over the h3 element
+
